@@ -1,0 +1,38 @@
+# .gitignore для Python/ML проекта
+
+# Виртуальное окружение
+venv/
+.env/
+.venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Данные (крупные файлы - НЕ загружаем в Git!)
+data/osm/*.geojson
+data/osm/*.json
+data/features/*.geojson
+data/train/*.geojson
+data/predictions/*.geojson
+data/zones/*.geojson
+models/*.joblib
+
+# Исключения - оставляем только маленькие тестовые файлы
+!data/osm/buildings_osm_small.geojson
+!data/features/building_features_small.csv
+!data/train/train_sample.csv
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Операционные системы
+.DS_Store
+Thumbs.db
