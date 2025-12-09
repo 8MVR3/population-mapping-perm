@@ -13,7 +13,7 @@ This project predicts population at building-level resolution using:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/population-mapping-perm.git
+git clone https://github.com/8MVR3/population-mapping-perm.git
 cd population-mapping-perm
 ```
 ### 2. Setup environment
