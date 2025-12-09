@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 1,
+                "building": "yes",
+                "name": "Тест 1",
+                "building:levels": 5
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            56.23,
+                            58.01
+                        ],
+                        [
+                            56.231,
+                            58.01
+                        ],
+                        [
+                            56.231,
+                            58.011
+                        ],
+                        [
+                            56.23,
+                            58.011
+                        ],
+                        [
+                            56.23,
+                            58.01
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "osm_id": 2,
+                "building": "house",
+                "name": "Тест 2"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            56.232,
+                            58.012
+                        ],
+                        [
+                            56.233,
+                            58.012
+                        ],
+                        [
+                            56.233,
+                            58.013
+                        ],
+                        [
+                            56.232,
+                            58.013
+                        ],
+                        [
+                            56.232,
+                            58.012
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

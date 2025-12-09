@@ -82,7 +82,7 @@ def main(features_csv, train_csv, model_out, test_size):
 
     print(f"   Признаков (X): {X_filled.shape[1]}")
     print(f"   Целевая переменная (y): {y.shape[0]} значений")
-    print(f"   Среднее население: {y.mean():.2f}")
+    print(f"   Среднее население: {float(y.mean().iloc[0]):.2f}")
     print(f"   Максимальное население: {y.max():.2f}")
 
     # 4. Разделение на train/test

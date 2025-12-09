@@ -1,0 +1,4 @@
+building_id,centroid_lon,centroid_lat,bld_area_m2,bld_perimeter_m,area_to_perimeter_ratio,levels,population
+1,56.23,58.01,100,40,2.5,1,10.0
+2,56.24,58.02,150,50,3.0,2,20.0
+3,56.25,58.03,200,60,3.33,3,30.0
